@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBh-y3-5Lm">
-                                <rect key="frame" x="295" y="471" width="46" height="80"/>
+                                <rect key="frame" x="295" y="483" width="46" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -116,16 +116,27 @@
                                 <rect key="frame" x="186" y="241" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Tapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="7zC-FR-Qp4"/>
+                                    <action selector="tenTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="EMM-Me-EsU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhq-2G-vNl">
-                                <rect key="frame" x="186" y="354" width="46" height="30"/>
+                                <rect key="frame" x="186" y="354" width="46" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Tapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="Zd9-l5-MuC"/>
+                                    <action selector="thirtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="cCN-gv-ScQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8p-vF-QKE">
-                                <rect key="frame" x="186" y="464" width="46" height="30"/>
+                                <rect key="frame" x="186" y="494" width="46" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="sixtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="cWd-dd-g0L"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eps-YU-mOa">
                                 <rect key="frame" x="147" y="633" width="97" height="34"/>
@@ -141,10 +152,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cay-C4-ybe">
-                                <rect key="frame" x="159" y="740" width="101" height="30"/>
+                                <rect key="frame" x="159" y="740" width="101" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Get my routine"/>
                                 <connections>
+                                    <action selector="timeActivitiesSubmitted:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="446-Zo-chn"/>
                                     <segue destination="PsL-eS-Sww" kind="show" id="ZlF-Xm-OMp"/>
                                 </connections>
                             </button>
@@ -153,10 +165,13 @@
                         <viewLayoutGuide key="safeArea" id="e0g-Y3-CSG"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gfs-Dy-cRK"/>
+                    <connections>
+                        <outlet property="activitiesInput" destination="eps-YU-mOa" id="wvt-fI-brc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTZ-1X-tAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1106" y="119"/>
+            <point key="canvasLocation" x="1105.7971014492755" y="118.52678571428571"/>
         </scene>
         <!--My routine-->
         <scene sceneID="qqe-gM-Ku6">

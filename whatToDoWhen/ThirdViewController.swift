@@ -10,6 +10,8 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 var secondVC = SecondViewController()
+    
+    @IBOutlet weak var activitiesInput: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,4 +29,24 @@ var secondVC = SecondViewController()
     }
     */
 
+    @IBAction func tenTapped(_ sender: Any) {
+        secondVC.firstVC.thisUser.time = 10
+    }
+    
+    @IBAction func thirtyTapped(_ sender: Any) {
+        secondVC.firstVC.thisUser.time = 30
+    }
+    
+    @IBAction func sixtyTapped(_ sender: Any) {
+        secondVC.firstVC.thisUser.time = 60
+    }
+    
+    @IBAction func timeActivitiesSubmitted(_ sender: Any) {
+        if let intValue = NumberFormatter().number(from: activitiesInput.text ?? <#default value#>) {
+          var activitiesInt = intValue.intValue
+            secondVC.firstVC.thisUser.numActivities = activitiesInt
+        } else {
+            activitiesInput.text = "Please enter a number"
+        }
+    }
 }
