@@ -11,5 +11,5 @@ import UIKit
 class User {
     var mood = ""
     var time = 0
-    var numActivities = ""
+    var numActivities = 0
 }

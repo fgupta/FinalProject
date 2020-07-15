@@ -145,7 +145,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ey-kW-vIH">
-                                <rect key="frame" x="186" y="555" width="42" height="21"/>
+                                <rect key="frame" x="186" y="555" width="42" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -160,6 +160,13 @@
                                     <segue destination="PsL-eS-Sww" kind="show" id="ZlF-Xm-OMp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="error message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcT-fZ-bxW">
+                                <rect key="frame" x="174" y="691" width="111" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e0g-Y3-CSG"/>
@@ -167,6 +174,7 @@
                     <navigationItem key="navigationItem" id="Gfs-Dy-cRK"/>
                     <connections>
                         <outlet property="activitiesInput" destination="eps-YU-mOa" id="wvt-fI-brc"/>
+                        <outlet property="inputError" destination="NcT-fZ-bxW" id="zYd-Xc-6pZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTZ-1X-tAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

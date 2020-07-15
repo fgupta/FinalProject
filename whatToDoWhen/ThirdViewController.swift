@@ -12,6 +12,8 @@ class ThirdViewController: UIViewController {
 var secondVC = SecondViewController()
     
     @IBOutlet weak var activitiesInput: UITextField!
+    
+    @IBOutlet weak var inputError: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -42,11 +44,11 @@ var secondVC = SecondViewController()
     }
     
     @IBAction func timeActivitiesSubmitted(_ sender: Any) {
-        if let intValue = NumberFormatter().number(from: activitiesInput.text ?? <#default value#>) {
+        if let intValue = NumberFormatter().number(from: activitiesInput.text ?? default value) {
           var activitiesInt = intValue.intValue
             secondVC.firstVC.thisUser.numActivities = activitiesInt
         } else {
-            activitiesInput.text = "Please enter a number"
+            inputError.text = "Please enter a number"
         }
     }
 }
