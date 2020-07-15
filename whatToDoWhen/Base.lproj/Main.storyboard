@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="-319" y="119"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="6Oc-Y9-vOF">
             <objects>
-                <viewController id="1pX-Gd-dlS" sceneMemberID="viewController">
+                <viewController id="1pX-Gd-dlS" customClass="SecondViewController" customModule="whatToDoWhen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Mc-dc-BON">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,30 +56,34 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="sadTapped:" destination="1pX-Gd-dlS" eventType="touchUpInside" id="s2a-TB-4cT"/>
                                     <segue destination="5nI-Y3-jMh" kind="show" id="ZLz-Lp-Ywa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sa-hC-ijh">
-                                <rect key="frame" x="237" y="284" width="46" height="30"/>
+                                <rect key="frame" x="237" y="284" width="46" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="happyTapped:" destination="1pX-Gd-dlS" eventType="touchUpInside" id="FQ5-HW-LHS"/>
                                     <segue destination="5nI-Y3-jMh" kind="show" id="eFi-Wr-N87"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPz-sm-H9M">
-                                <rect key="frame" x="126" y="471" width="46" height="30"/>
+                                <rect key="frame" x="126" y="471" width="46" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="anxiousTapped:" destination="1pX-Gd-dlS" eventType="touchUpInside" id="xRA-O8-I7r"/>
                                     <segue destination="5nI-Y3-jMh" kind="show" id="2Br-lN-dM5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBh-y3-5Lm">
-                                <rect key="frame" x="295" y="471" width="46" height="30"/>
+                                <rect key="frame" x="295" y="471" width="46" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="uninspiredTapped:" destination="1pX-Gd-dlS" eventType="touchUpInside" id="Be3-UW-IVo"/>
                                     <segue destination="5nI-Y3-jMh" kind="show" id="PIv-9J-0CO"/>
                                 </connections>
                             </button>
@@ -91,12 +95,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lqG-vJ-PKi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="372" y="119"/>
+            <point key="canvasLocation" x="371.01449275362324" y="118.52678571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="UGv-PS-fZh">
             <objects>
-                <viewController id="5nI-Y3-jMh" sceneMemberID="viewController">
+                <viewController id="5nI-Y3-jMh" customClass="ThirdViewController" customModule="whatToDoWhen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WUY-8N-23a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,7 +161,7 @@
         <!--My routine-->
         <scene sceneID="qqe-gM-Ku6">
             <objects>
-                <viewController id="PsL-eS-Sww" sceneMemberID="viewController">
+                <viewController id="PsL-eS-Sww" customClass="FourthViewController" customModule="whatToDoWhen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kCw-JV-ouZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -16,6 +16,10 @@
 		18667AF524BE5FBF00BF349F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18667AF324BE5FBF00BF349F /* LaunchScreen.storyboard */; };
 		18667B0024BE5FBF00BF349F /* whatToDoWhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667AFF24BE5FBF00BF349F /* whatToDoWhenTests.swift */; };
 		18667B0B24BE5FBF00BF349F /* whatToDoWhenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667B0A24BE5FBF00BF349F /* whatToDoWhenUITests.swift */; };
+		187CCFAA24BFA3F60072EFC1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CCFA924BFA3F60072EFC1 /* SecondViewController.swift */; };
+		187CCFAC24BFA4220072EFC1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CCFAB24BFA4220072EFC1 /* ThirdViewController.swift */; };
+		187CCFAE24BFA4390072EFC1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CCFAD24BFA4390072EFC1 /* FourthViewController.swift */; };
+		187CCFB024BFA48A0072EFC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CCFAF24BFA48A0072EFC1 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		18667B0624BE5FBF00BF349F /* whatToDoWhenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatToDoWhenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18667B0A24BE5FBF00BF349F /* whatToDoWhenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatToDoWhenUITests.swift; sourceTree = "<group>"; };
 		18667B0C24BE5FBF00BF349F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187CCFA924BFA3F60072EFC1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		187CCFAB24BFA4220072EFC1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		187CCFAD24BFA4390072EFC1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		187CCFAF24BFA48A0072EFC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				18667AE724BE5FBD00BF349F /* SceneDelegate.swift */,
 				18667AE924BE5FBD00BF349F /* ViewController.swift */,
 				18667AEB24BE5FBD00BF349F /* Main.storyboard */,
+				187CCFAF24BFA48A0072EFC1 /* User.swift */,
+				187CCFA924BFA3F60072EFC1 /* SecondViewController.swift */,
+				187CCFAB24BFA4220072EFC1 /* ThirdViewController.swift */,
+				187CCFAD24BFA4390072EFC1 /* FourthViewController.swift */,
 				18667AF124BE5FBF00BF349F /* Assets.xcassets */,
 				18667AF324BE5FBF00BF349F /* LaunchScreen.storyboard */,
 				18667AF624BE5FBF00BF349F /* Info.plist */,
@@ -265,6 +277,10 @@
 				18667AEA24BE5FBD00BF349F /* ViewController.swift in Sources */,
 				18667AF024BE5FBD00BF349F /* whatToDoWhen.xcdatamodeld in Sources */,
 				18667AE624BE5FBD00BF349F /* AppDelegate.swift in Sources */,
+				187CCFAE24BFA4390072EFC1 /* FourthViewController.swift in Sources */,
+				187CCFB024BFA48A0072EFC1 /* User.swift in Sources */,
+				187CCFAA24BFA3F60072EFC1 /* SecondViewController.swift in Sources */,
+				187CCFAC24BFA4220072EFC1 /* ThirdViewController.swift in Sources */,
 				18667AE824BE5FBD00BF349F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

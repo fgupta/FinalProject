@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if let secondVC = segue.destination as? SecondViewController {
+        secondVC.firstVC = self
+      }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-print("Hello, World!")
+var thisUser = User()
 }
 
