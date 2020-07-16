@@ -44,8 +44,8 @@ var secondVC = SecondViewController()
     }
     
     @IBAction func timeActivitiesSubmitted(_ sender: Any) {
-        if let intValue = NumberFormatter().number(from: activitiesInput.text ?? default value) {
-          var activitiesInt = intValue.intValue
+        if let intValue = NumberFormatter().number(from: activitiesInput.text ?? <#String#>) {
+            let activitiesInt = intValue.intValue;
             secondVC.firstVC.thisUser.numActivities = activitiesInt
         } else {
             inputError.text = "Please enter a number"
