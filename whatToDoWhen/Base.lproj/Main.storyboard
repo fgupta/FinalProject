@@ -49,7 +49,7 @@
                                 <rect key="frame" x="65" y="278.5" width="123" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                <color key="tintColor" red="1" green="0.91372553705322412" blue="0.15016660364033296" alpha="0.7367686426779857" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.91372553705322412" blue="0.19776399233896313" alpha="0.7367686426779857" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Happy" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -76,7 +76,7 @@
                                 <rect key="frame" x="65" y="490.5" width="123" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
-                                <color key="tintColor" red="0.76939888525799849" green="0.19770510125895993" blue="0.98117761353834199" alpha="0.69803587147887325" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.76939888525799849" green="0.19770510125895993" blue="0.98117761353834199" alpha="0.35883424476654446" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Anxious" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -107,7 +107,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.66178831335616439" green="0.87235228737397263" blue="0.95192101883561642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.54509803921568623" green="0.84705882352941175" blue="0.77647058823529413" alpha="0.98999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="IIy-Ap-spc"/>
                     </view>
@@ -125,7 +125,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh3-uh-1i4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh3-uh-1i4">
                                 <rect key="frame" x="182" y="64" width="164" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
@@ -136,7 +136,7 @@
                                 <rect key="frame" x="132" y="189" width="164" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                <color key="tintColor" red="0.21593771923644284" green="0.62066919384922281" blue="0.32941131040112592" alpha="0.44514744718309857" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.4503503994885944" green="0.84586351491521272" blue="0.78010709319135874" alpha="0.64115558074474233" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="10 Minutes" backgroundImage="rectangle.fill" catalog="system">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -149,7 +149,7 @@
                                 <rect key="frame" x="132" y="308" width="166" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                <color key="tintColor" red="0.21593771923644284" green="0.62066919384922281" blue="0.32941131040112592" alpha="0.45029159330985913" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.45677685028813331" green="0.79722376237714165" blue="0.76937595018545912" alpha="0.64456064296739346" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="30 Minutes" backgroundImage="stop.fill" catalog="system">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -162,7 +162,7 @@
                                 <rect key="frame" x="130" y="422" width="166" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                <color key="tintColor" red="0.21593771923644284" green="0.62066919384922281" blue="0.32941131040112592" alpha="0.4453125" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.47619453913921267" green="0.79693354443661035" blue="0.8028352788746036" alpha="0.64311322773972601" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="&gt;1 Hour" backgroundImage="stop.fill" catalog="system">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -170,47 +170,18 @@
                                     <action selector="sixtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="cWd-dd-g0L"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eps-YU-mOa">
-                                <rect key="frame" x="159" y="588" width="97" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;Select how much time you have&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAu-mx-yjU">
+                                <rect key="frame" x="69" y="612" width="292" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ey-kW-vIH">
-                                <rect key="frame" x="164" y="518" width="102" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;error message&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcT-fZ-bxW">
-                                <rect key="frame" x="149" y="659" width="133" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cay-C4-ybe">
-                                <rect key="frame" x="130" y="679" width="170" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
-                                <state key="normal" title="Get my routine">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="timeActivitiesSubmitted:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="446-Zo-chn"/>
-                                    <segue destination="PsL-eS-Sww" kind="show" id="ZlF-Xm-OMp"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97815510620925705" green="0.8559819444087069" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e0g-Y3-CSG"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gfs-Dy-cRK"/>
-                    <connections>
-                        <outlet property="activitiesInput" destination="eps-YU-mOa" id="wvt-fI-brc"/>
-                        <outlet property="inputError" destination="NcT-fZ-bxW" id="zYd-Xc-6pZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTZ-1X-tAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -221,13 +192,13 @@
             <objects>
                 <viewController id="PsL-eS-Sww" customClass="FourthViewController" customModule="whatToDoWhen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kCw-JV-ouZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;Quote&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvV-Cm-cH6">
-                                <rect key="frame" x="158" y="20" width="132" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Routine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTQ-8i-FVj">
+                                <rect key="frame" x="137" y="123" width="140" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -236,15 +207,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Routine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTQ-8i-FVj">
-                                <rect key="frame" x="137" y="123" width="140" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;Quote&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvV-Cm-cH6">
+                                <rect key="frame" x="161" y="44" width="132" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.65389298107577831" green="0.58159177076275914" blue="1" alpha="0.64513644366197187" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.65389298107577831" green="0.58159177076275914" blue="1" alpha="0.92385488013698636" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="72k-wV-zHs"/>
                     </view>
                     <navigationItem key="navigationItem" title="My routine" id="bwo-Xp-E8E"/>
