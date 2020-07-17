@@ -144,8 +144,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="tenTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="EMM-Me-EsU"/>
-                                    <segue destination="PsL-eS-Sww" kind="show" id="uJb-7e-QqM"/>
+                                    <action selector="tenTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="Ln6-2t-H8r"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhq-2G-vNl">
@@ -157,8 +156,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="thirtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="cCN-gv-ScQ"/>
-                                    <segue destination="PsL-eS-Sww" kind="show" id="l3b-AR-XD5"/>
+                                    <action selector="thirtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="bu4-r0-FUu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8p-vF-QKE">
@@ -170,17 +168,28 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="sixtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="cWd-dd-g0L"/>
-                                    <segue destination="PsL-eS-Sww" kind="show" id="lwo-Jw-6bS"/>
+                                    <action selector="sixtyTapped:" destination="5nI-Y3-jMh" eventType="touchUpInside" id="J6M-dV-dsl"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;Select how much time you have&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAu-mx-yjU">
-                                <rect key="frame" x="69" y="617" width="292" height="17"/>
+                                <rect key="frame" x="69" y="577" width="292" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sj-Kt-3kg">
+                                <rect key="frame" x="163" y="670" width="88" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72156862745098038" green="0.60392156862745094" blue="0.89411764705882346" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PsL-eS-Sww" kind="show" id="0Jc-dO-XWY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97815510620925705" green="0.8559819444087069" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e0g-Y3-CSG"/>
@@ -244,7 +253,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uJb-7e-QqM"/>
         <segue reference="PIv-9J-0CO"/>
     </inferredMetricsTieBreakers>
     <resources>

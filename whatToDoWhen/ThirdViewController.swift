@@ -10,6 +10,9 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 var secondVC = SecondViewController()
+    var firstVC = ViewController()
+    var time = ""
+    var app = "hello"
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
       if let fourthVC = segue.destination as? FourthViewController {
         fourthVC.thirdVC = self
@@ -32,16 +35,21 @@ var secondVC = SecondViewController()
     }
     */
 
+    
     @IBAction func tenTapped(_ sender: Any) {
-        secondVC.firstVC.thisUser.time = "ten"
+        time = "ten"
     }
+    
     
     @IBAction func thirtyTapped(_ sender: Any) {
-        secondVC.firstVC.thisUser.time = "thirty"
+       time = "thirty"
     }
+    
     
     @IBAction func sixtyTapped(_ sender: Any) {
-        secondVC.firstVC.thisUser.time = "sixty"
+    
+        time = "sixty"
     }
     
-    }
+    
+}

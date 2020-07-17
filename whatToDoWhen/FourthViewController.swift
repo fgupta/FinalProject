@@ -10,7 +10,7 @@ import UIKit
 
 class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var thirdVC = ThirdViewController()
-    
+    var time = "sixty"
     @IBOutlet weak var quote: UILabel!
     
 
@@ -30,14 +30,127 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var unmotivatedMood = ["Scroll through and organize your phone","Check out some Pinterest projects or some blogs with activities you like","Watch a motivational vid","Write things you are most proud of","Research for a new activity","Learn a new skill from friends","Water a plant","Listen to motivational music (time to get hyped)", "Doodle"]
              if thirdVC.secondVC.firstVC.thisUser.mood == "happy" {
                  
-               //if thirdVC.secondVC.firstVC.thisUser.time == "ten" {
+               if thirdVC.time == "ten" {
                  
                  var randomInt1 = Int.random(in: 0..<sadMood.count-1)
                  thisUserRoutine.append(sadMood[randomInt1])
                  var randomInt2 = Int.random(in: 0..<sadMood.count-1)
                  thisUserRoutine.append(sadMood[randomInt2])
-               // }
+                }
+               else if thirdVC.time == "thirty" {
+                var randomInt1 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt1])
+                var randomInt2 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt2])
+                var randomInt3 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt3])
+                }
+               else {
+                var randomInt1 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt1])
+                var randomInt2 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt2])
+                var randomInt3 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt3])
+                var randomInt4 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt4])
+                var randomInt5 = Int.random(in: 0..<sadMood.count-1)
+                thisUserRoutine.append(sadMood[randomInt5])
+                }
                  }
+                
+             else if thirdVC.secondVC.firstVC.thisUser.mood == "sad" {
+                if thirdVC.time == "ten" {
+                  
+                  var randomInt1 = Int.random(in: 0..<happyMood.count-1)
+                  thisUserRoutine.append(happyMood[randomInt1])
+                  var randomInt2 = Int.random(in: 0..<happyMood.count-1)
+                  thisUserRoutine.append(happyMood[randomInt2])
+                 }
+                else if thirdVC.time == "thirty" {
+                 var randomInt1 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt1])
+                 var randomInt2 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt2])
+                 var randomInt3 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt3])
+                 }
+                else {
+                 var randomInt1 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt1])
+                 var randomInt2 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt2])
+                 var randomInt3 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt3])
+                 var randomInt4 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt4])
+                 var randomInt5 = Int.random(in: 0..<happyMood.count-1)
+                 thisUserRoutine.append(happyMood[randomInt5])
+                 }
+             }
+                
+             else if thirdVC.secondVC.firstVC.thisUser.mood == "anxious" {
+                if thirdVC.time == "ten" {
+                  
+                  var randomInt1 = Int.random(in: 0..<anxiousMood.count-1)
+                  thisUserRoutine.append(anxiousMood[randomInt1])
+                  var randomInt2 = Int.random(in: 0..<anxiousMood.count-1)
+                  thisUserRoutine.append(anxiousMood[randomInt2])
+                 }
+                else if thirdVC.time == "thirty" {
+                 var randomInt1 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt1])
+                 var randomInt2 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt2])
+                 var randomInt3 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt3])
+                 }
+                else {
+                 var randomInt1 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt1])
+                 var randomInt2 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt2])
+                 var randomInt3 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt3])
+                 var randomInt4 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt4])
+                 var randomInt5 = Int.random(in: 0..<anxiousMood.count-1)
+                 thisUserRoutine.append(anxiousMood[randomInt5])
+                 }
+             }
+             else {
+                if thirdVC.time == "ten" {
+                                 
+                                 var randomInt1 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                 thisUserRoutine.append(unmotivatedMood[randomInt1])
+                                 var randomInt2 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                 thisUserRoutine.append(unmotivatedMood[randomInt2])
+                                }
+                               else if thirdVC.time == "thirty" {
+                                var randomInt1 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt1])
+                                var randomInt2 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt2])
+                                var randomInt3 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt3])
+                                }
+                               else {
+                                var randomInt1 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt1])
+                                var randomInt2 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt2])
+                                var randomInt3 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt3])
+                                var randomInt4 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt4])
+                                var randomInt5 = Int.random(in: 0..<unmotivatedMood.count-1)
+                                thisUserRoutine.append(unmotivatedMood[randomInt5])
+                                }
+                
+        }
+                
+                
+   /*
              else if thirdVC.secondVC.firstVC.thisUser.mood == "sad" {
                 var randomInt1 = Int.random(in: 0..<happyMood.count-1)
                 thisUserRoutine.append(happyMood[randomInt1])
@@ -58,7 +171,8 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 thisUserRoutine.append(unmotivatedMood[randomInt2])
                 
         }
-             
+        
+           */
              
                  /*
                  else if thirdVC.secondVC.firstVC.thisUser.time == "thirty" {
@@ -84,17 +198,17 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 var newAnxiousQ = anxiousQuotes[randomQuote]
                 var newHappyQ = happyQuote[randomQuote]
                 var newUnmotivatedQ = unmotivatedQuote[randomQuote]
-             if thirdVC.secondVC.firstVC.thisUser.mood == "sad" {
-                 quote.text = newSadQ
+             if thirdVC.secondVC.firstVC.thisUser.mood == "happy" {
+                quote.text = "🌟 " + newSadQ + " 🌟"
              }
-             else if thirdVC.secondVC.firstVC.thisUser.mood == "happy" {
-                 quote.text = newHappyQ
+             else if thirdVC.secondVC.firstVC.thisUser.mood == "sad" {
+                 quote.text = "🌟 " + newHappyQ + " 🌟"
              }
              else if thirdVC.secondVC.firstVC.thisUser.mood == "anxious" {
-                 quote.text = newAnxiousQ
+                 quote.text = "🌟 " + newAnxiousQ + " 🌟"
              }
              else {
-                 quote.text = newUnmotivatedQ
+                 quote.text = "🌟 " + newUnmotivatedQ + " 🌟"
              }
 
         // Do any additional setup after loading the view.
