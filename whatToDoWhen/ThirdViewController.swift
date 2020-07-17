@@ -10,10 +10,11 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 var secondVC = SecondViewController()
-    
-    @IBOutlet weak var activitiesInput: UITextField!
-    
-    @IBOutlet weak var inputError: UILabel!
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if let fourthVC = segue.destination as? FourthViewController {
+        fourthVC.thirdVC = self
+      }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,23 +33,15 @@ var secondVC = SecondViewController()
     */
 
     @IBAction func tenTapped(_ sender: Any) {
-        secondVC.firstVC.thisUser.time = 10
+        secondVC.firstVC.thisUser.time = "ten"
     }
     
     @IBAction func thirtyTapped(_ sender: Any) {
-        secondVC.firstVC.thisUser.time = 30
+        secondVC.firstVC.thisUser.time = "thirty"
     }
     
     @IBAction func sixtyTapped(_ sender: Any) {
-        secondVC.firstVC.thisUser.time = 60
+        secondVC.firstVC.thisUser.time = "sixty"
     }
     
-    @IBAction func timeActivitiesSubmitted(_ sender: Any) {
-        if let intValue = NumberFormatter().number(from: activitiesInput.text ?? <#String#>) {
-            let activitiesInt = intValue.intValue;
-            secondVC.firstVC.thisUser.numActivities = activitiesInt
-        } else {
-            inputError.text = "Please enter a number"
-        }
     }
-}

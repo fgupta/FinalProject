@@ -7,9 +7,10 @@
 //
 
 import UIKit
+ 
 
 class User {
     var mood = ""
-    var time = 0
-    var numActivities = 0
+    var time = ""
+    
 }
